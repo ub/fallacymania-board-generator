@@ -60,4 +60,15 @@ class MasterGridDescriptionMap
     $stderr.print("Ambiguous pattern #{pattern}; #{found.size} matches\n") if found.size != 1
     return found[0][1,2]
   end
+
+  def each_cell_index
+    if block_given?
+      @description_map.each do |t,r,c|
+        yield [r,c]
+      end
+    else
+      self.enum_for(:each_cell_index)
+    end
+
+  end
 end

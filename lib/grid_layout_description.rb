@@ -44,7 +44,7 @@ module GridLayoutDescription
         yield [ (top_margin + r * vertical_pitch).to_i, (left_margin + c * horizontal_pitch).to_i ]
       end
     else
-      self.enum_for(:each_cell_topleft)
+      self.enum_for(:each_cell_topleft, each_cell_index_enumerator)
     end
   end
 

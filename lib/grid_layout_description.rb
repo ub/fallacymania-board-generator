@@ -1,0 +1,45 @@
+module GridLayoutDescription
+  # distance between the left edges of adjacent cells .
+  attr_accessor :horizontal_pitch
+
+  # distance between the upper edge of a cell  and the upper edge of the cell  directly below.
+  attr_accessor :vertical_pitch
+  attr_accessor :cell_width
+  attr_accessor :cell_height
+
+  # distance from the left edge of the canvas to the left edge of the first cell .
+  attr_accessor :left_margin
+
+  # distance from the top edge of the canvas to the top of the first cell .
+  attr_accessor :top_margin
+  attr_accessor :right_margin
+  attr_accessor :bottom_margin
+  attr_accessor :number_of_columns
+  attr_accessor :number_of_rows
+
+  def canvas_width
+    horizontal_pitch * number_of_columns + left_margin + right_margin
+  end
+
+  def canvas_height
+    vertical_pitch * number_of_rows + top_margin + bottom_margin
+  end
+
+  # column-first iterator
+  def each_cell_index
+    if block_given?
+
+      (0...self.number_of_columns).each do |c|
+        (0...self.number_of_rows).each do |r|
+          yield [r, c]
+        end
+      end
+
+
+    else
+      self.enum_for(:each_cell_index)
+    end
+  end
+
+end
+

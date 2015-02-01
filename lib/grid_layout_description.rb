@@ -38,9 +38,9 @@ module GridLayoutDescription
     end
   end
 
-  def each_cell_topleft
+  def each_cell_topleft(each_cell_index_enumerator = self.each_cell_index)
     if block_given?
-      self.each_cell_index do | r, c |
+      each_cell_index_enumerator.each do | r, c |
         yield [ (top_margin + r * vertical_pitch).to_i, (left_margin + c * horizontal_pitch).to_i ]
       end
     else

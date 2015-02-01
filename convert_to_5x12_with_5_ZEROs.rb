@@ -23,7 +23,6 @@ puts target_grid_5x12.canvas_width
 puts target_grid_5x12.canvas_height
 
 target5x12 = ChunkyPNG::Image.new(target_grid_5x12.canvas_width, target_grid_5x12.canvas_height, ChunkyPNG::Color::WHITE)
-
 File::open('rhetological-fallacies.mgdm') do |f|
   @master_description = MasterGridDescriptionMap.new(f.each_line, 30)
 end

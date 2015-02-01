@@ -29,8 +29,8 @@ module GridLayoutDescription
   def each_cell_index
     if block_given?
 
-      (0...self.number_of_columns).each do |c|
-        (0...self.number_of_rows).each do |r|
+      self.number_of_columns.times do |c|
+        self.number_of_rows.times do |r|
           yield [r, c]
         end
       end

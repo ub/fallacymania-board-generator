@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b5e1d50-0508-4f5f-97fa-7c1f50caee9f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chunky_training.rb" afterPath="$PROJECT_DIR$/chunky_training.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/grid_layout_description.rb" afterPath="$PROJECT_DIR$/lib/grid_layout_description.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/master_grid_description_map.rb" afterPath="$PROJECT_DIR$/lib/master_grid_description_map.rb" />
+    <list default="true" id="3b5e1d50-0508-4f5f-97fa-7c1f50caee9f" name="Default" comment="removed">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_to_5x12_with_5_ZEROs.rb" afterPath="$PROJECT_DIR$/convert_to_5x12_with_5_ZEROs.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fallacy-layout.iws" />
@@ -23,7 +21,7 @@
     <SUITE FILE_PATH="coverage/fallacy-layout@Run_spec__grid_module_spec___fallacy_layout.coverage" NAME="Run spec 'grid_module_spec': fallacy-layout Coverage Results" MODIFIED="1422805050005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
     <SUITE FILE_PATH="coverage/fallacy-layout@Run_spec__mgdm_pattern_spec___fallacy_layout.coverage" NAME="Run spec 'mgdm_pattern_spec': fallacy-layout Coverage Results" MODIFIED="1422719996054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
     <SUITE FILE_PATH="coverage/fallacy-layout@master_grid.coverage" NAME="master_grid Coverage Results" MODIFIED="1422738284891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="fallacy-layout" />
-    <SUITE FILE_PATH="coverage/fallacy-layout@chunky_training.coverage" NAME="chunky_training Coverage Results" MODIFIED="1422812612480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
+    <SUITE FILE_PATH="coverage/fallacy-layout@chunky_training.coverage" NAME="convert_to_5x12_with_5_ZEROs Coverage Results" MODIFIED="1422814713626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
     <SUITE FILE_PATH="coverage/fallacy-layout@Run_spec__preprocessor_enum_spec___fallacy_layout.coverage" NAME="Run spec 'preprocessor_enum_spec': fallacy-layout Coverage Results" MODIFIED="1422721535891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
     <SUITE FILE_PATH="coverage/fallacy-layout@Run_spec__master_grid_description_map_spec___fallacy_layout.coverage" NAME="Run spec 'master_grid_description_map_spec': fallacy-layout Coverage Results" MODIFIED="1422659868613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
     <SUITE FILE_PATH="coverage/fallacy-layout@All_specs.coverage" NAME="All specs Coverage Results" MODIFIED="1422806756151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="fallacy-layout" />
@@ -50,13 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chunky_training.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chunky_training.rb">
+      <file leaf-file-name="convert_to_5x12_with_5_ZEROs.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/convert_to_5x12_with_5_ZEROs.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4123712" vertical-offset="138" max-vertical-offset="1125">
-              <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+            <state vertical-scroll-proportion="1.2113402" vertical-offset="0" max-vertical-offset="795">
+              <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5x12.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5x12.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -146,6 +151,7 @@
         <option value="$PROJECT_DIR$/lib/master_grid_description_map.rb" />
         <option value="$PROJECT_DIR$/chunky_training.rb" />
         <option value="$PROJECT_DIR$/lib/grid_layout_description.rb" />
+        <option value="$PROJECT_DIR$/convert_to_5x12_with_5_ZEROs.rb" />
       </list>
     </option>
   </component>
@@ -264,7 +270,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesRuby" value="false" />
   </component>
-  <component name="RunManager" selected="Ruby.chunky_training">
+  <component name="RunManager">
     <configuration default="false" name="Run spec 'preprocessor_enum_spec': fallacy-layout" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="fallacy-layout" />
@@ -382,7 +388,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="chunky_training" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="convert_to_5x12_with_5_ZEROs" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="fallacy-layout" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -398,7 +404,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chunky_training.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/convert_to_5x12_with_5_ZEROs.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
@@ -525,11 +531,11 @@
       <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console: fallacy-layout" />
       <item index="3" class="java.lang.String" itemvalue="Ruby.master_grid" />
       <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'grid_module_spec': fallacy-layout" />
-      <item index="5" class="java.lang.String" itemvalue="Ruby.chunky_training" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.convert_to_5x12_with_5_ZEROs" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.chunky_training" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.convert_to_5x12_with_5_ZEROs" />
         <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console: fallacy-layout" />
         <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'grid_module_spec': fallacy-layout" />
         <item index="3" class="java.lang.String" itemvalue="Ruby.master_grid" />
@@ -581,7 +587,19 @@
       <option name="project" value="LOCAL" />
       <updated>1422806844944</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed enumerator generation for iterator with parameter">
+      <created>1422813986392</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1422813986392</updated>
+    </task>
+    <task id="LOCAL-00007" summary="renamed main script&#10;">
+      <created>1422814196226</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1422814196226</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -650,7 +668,9 @@
     <MESSAGE value="refactored iteration" />
     <MESSAGE value="first take on rearranging the sample&#10;" />
     <MESSAGE value="topleft iterator now may take  2d index enumerable as a parameter&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="topleft iterator now may take  2d index enumerable as a parameter&#10;" />
+    <MESSAGE value="fixed enumerator generation for iterator with parameter" />
+    <MESSAGE value="renamed main script&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed main script&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -983,14 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/master_compatible_grid.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/basic_grid.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
@@ -1033,11 +1045,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5x12.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/grid_layout_description.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="885">
@@ -1051,10 +1058,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chunky_training.rb">
+    <entry file="file://$PROJECT_DIR$/5x12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/master_compatible_grid.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4123712" vertical-offset="138" max-vertical-offset="1125">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_to_5x12_with_5_ZEROs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2113402" vertical-offset="0" max-vertical-offset="795">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
           <folding />
         </state>
       </provider>

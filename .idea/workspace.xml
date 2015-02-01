@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b5e1d50-0508-4f5f-97fa-7c1f50caee9f" name="Default" comment="added everything to git">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/fixtures/123.txt" afterPath="$PROJECT_DIR$/spec/fixtures/123.txt" />
+    <list default="true" id="3b5e1d50-0508-4f5f-97fa-7c1f50caee9f" name="Default" comment="refactored iteration">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/almost_square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rhetological-fallacies.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample-out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chunky_training.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grid_terminology.md" afterPath="$PROJECT_DIR$/Grid_terminology.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/basic_grid.rb" afterPath="$PROJECT_DIR$/lib/basic_grid.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fallacy-layout.iml" afterPath="$PROJECT_DIR$/.idea/fallacy-layout.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/grid_layout_description.rb" afterPath="$PROJECT_DIR$/lib/grid_layout_description.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/grid_module_spec.rb" afterPath="$PROJECT_DIR$/spec/grid_module_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/master_compatible_grid.rb" afterPath="$PROJECT_DIR$/lib/master_compatible_grid.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/master_grid.rb" afterPath="$PROJECT_DIR$/lib/master_grid.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/master_grid_description_map.rb" afterPath="$PROJECT_DIR$/lib/master_grid_description_map.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/master_grid_description_map_spec.rb" afterPath="$PROJECT_DIR$/spec/master_grid_description_map_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/mgdm_pattern_spec.rb" afterPath="$PROJECT_DIR$/spec/mgdm_pattern_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/preprocessor_enum_spec.rb" afterPath="$PROJECT_DIR$/spec/preprocessor_enum_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/preprocessor_enumerator.rb" afterPath="$PROJECT_DIR$/lib/preprocessor_enumerator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/relayout.rb" afterPath="$PROJECT_DIR$/relayout.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rhetological-fallacies.mgdm" afterPath="$PROJECT_DIR$/rhetological-fallacies.mgdm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fallacy-layout.iws" />
@@ -33,9 +28,10 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/fallacy-layout@IRB_console__fallacy_layout.coverage" NAME="IRB console: fallacy-layout Coverage Results" MODIFIED="1422745487771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
-    <SUITE FILE_PATH="coverage/fallacy-layout@Run_spec__grid_module_spec___fallacy_layout.coverage" NAME="Run spec 'grid_module_spec': fallacy-layout Coverage Results" MODIFIED="1422750637920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
+    <SUITE FILE_PATH="coverage/fallacy-layout@Run_spec__grid_module_spec___fallacy_layout.coverage" NAME="Run spec 'grid_module_spec': fallacy-layout Coverage Results" MODIFIED="1422805050005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
     <SUITE FILE_PATH="coverage/fallacy-layout@Run_spec__mgdm_pattern_spec___fallacy_layout.coverage" NAME="Run spec 'mgdm_pattern_spec': fallacy-layout Coverage Results" MODIFIED="1422719996054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
     <SUITE FILE_PATH="coverage/fallacy-layout@master_grid.coverage" NAME="master_grid Coverage Results" MODIFIED="1422738284891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="fallacy-layout" />
+    <SUITE FILE_PATH="coverage/fallacy-layout@chunky_training.coverage" NAME="chunky_training Coverage Results" MODIFIED="1422805831120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
     <SUITE FILE_PATH="coverage/fallacy-layout@Run_spec__preprocessor_enum_spec___fallacy_layout.coverage" NAME="Run spec 'preprocessor_enum_spec': fallacy-layout Coverage Results" MODIFIED="1422721535891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
     <SUITE FILE_PATH="coverage/fallacy-layout@Run_spec__master_grid_description_map_spec___fallacy_layout.coverage" NAME="Run spec 'master_grid_description_map_spec': fallacy-layout Coverage Results" MODIFIED="1422659868613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="fallacy-layout" />
     <SUITE FILE_PATH="coverage/fallacy-layout@All_specs.coverage" NAME="All specs Coverage Results" MODIFIED="1422796356330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="fallacy-layout" />
@@ -52,31 +48,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="master_grid_description_map.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/master_grid_description_map.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="1020">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1020">
+              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preprocessor_enumerator.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chunky_training.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chunky_training.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.87628865" vertical-offset="0" max-vertical-offset="660">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocessor_enumerator.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/preprocessor_enumerator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72164947" vertical-offset="30" max-vertical-offset="675">
+            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="675">
               <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic_grid.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/basic_grid.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="465">
-              <caret line="23" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,8 +91,8 @@
       <file leaf-file-name="grid_module_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/grid_module_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="810">
+              <caret line="41" column="80" selection-start-line="41" selection-start-column="80" selection-end-line="41" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -95,21 +101,18 @@
       <file leaf-file-name="master_compatible_grid.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/master_compatible_grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="225">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grid_terminology.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Grid_terminology.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
+      <file leaf-file-name="basic_grid.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/basic_grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -118,38 +121,18 @@
       <file leaf-file-name="grid_layout_description.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/grid_layout_description.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="765">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="885">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preprocessor_enum_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/preprocessor_enum_spec.rb">
+      <file leaf-file-name="master_grid.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/master_grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="990">
-              <caret line="51" column="77" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master_grid_description_map_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/master_grid_description_map_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1290">
-              <caret line="2" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relayout.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/relayout.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1245">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -173,12 +156,14 @@
         <option value="$PROJECT_DIR$/lib/master_grid_description_map.rb" />
         <option value="$PROJECT_DIR$/spec/master_grid_description_map_spec.rb" />
         <option value="$PROJECT_DIR$/Grid_terminology.md" />
-        <option value="$PROJECT_DIR$/lib/basic_grid.rb" />
         <option value="$PROJECT_DIR$/lib/master_grid.rb" />
         <option value="$PROJECT_DIR$/lib/master_compatible_grid.rb" />
         <option value="$PROJECT_DIR$/lib/two_dimensional_column_first_index_enumerator.rb" />
-        <option value="$PROJECT_DIR$/spec/grid_module_spec.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/grid_layout_description.rb" />
+        <option value="$PROJECT_DIR$/lib/basic_grid.rb" />
+        <option value="$PROJECT_DIR$/spec/grid_module_spec.rb" />
+        <option value="$PROJECT_DIR$/chunky_training.rb" />
       </list>
     </option>
   </component>
@@ -297,43 +282,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesRuby" value="false" />
   </component>
-  <component name="RunManager" selected="RSpec.All specs">
-    <configuration default="false" name="Run spec 'mgdm_pattern_spec': fallacy-layout" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="fallacy-layout" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/mgdm_pattern_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.chunky_training">
     <configuration default="false" name="Run spec 'preprocessor_enum_spec': fallacy-layout" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="fallacy-layout" />
@@ -448,6 +397,30 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="chunky_training" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="fallacy-layout" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/chunky_training.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -566,19 +539,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="RSpec.All specs" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'mgdm_pattern_spec': fallacy-layout" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'preprocessor_enum_spec': fallacy-layout" />
-      <item index="3" class="java.lang.String" itemvalue="IRB console.IRB console: fallacy-layout" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.master_grid" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.Run spec 'grid_module_spec': fallacy-layout" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'preprocessor_enum_spec': fallacy-layout" />
+      <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console: fallacy-layout" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.master_grid" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'grid_module_spec': fallacy-layout" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.chunky_training" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'grid_module_spec': fallacy-layout" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.master_grid" />
-        <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console: fallacy-layout" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'preprocessor_enum_spec': fallacy-layout" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'mgdm_pattern_spec': fallacy-layout" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.chunky_training" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'grid_module_spec': fallacy-layout" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.master_grid" />
+        <item index="3" class="java.lang.String" itemvalue="IRB console.IRB console: fallacy-layout" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'preprocessor_enum_spec': fallacy-layout" />
       </list>
     </recent_temporary>
   </component>
@@ -602,7 +575,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422796289854</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactored iteration">
+      <created>1422796933935</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1422796933935</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -629,18 +608,18 @@
     <frame x="260" y="25" width="1583" height="1000" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30659342" sideWeight="0.49967468" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24983734" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24007808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24333116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.7221861" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.2778139" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.2778139" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -667,56 +646,29 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="added everything to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="added everything to git" />
+    <MESSAGE value="refactored iteration" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored iteration" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/grid_layout_description.rb</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="RubyRunConfigurationType">
+        <watch expression="horizontal_pitch * number_of_columns" language="ruby" />
+        <watch expression="vertical_pitch" language="ruby" />
+        <watch expression="number_of_rows" language="ruby" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/grid_module_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/master_compatible_grid.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="225">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Grid_terminology.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/grid_layout_description.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/preprocessor_enum_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="990">
-          <caret line="51" column="77" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/master_grid_description_map_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1290">
@@ -985,22 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/master_grid.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/relayout.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1245">
@@ -1016,22 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/grid_module_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/master_compatible_grid.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1052,34 +972,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/master_grid_description_map.rb">
+    <entry file="file://$PROJECT_DIR$/lib/preprocessor_enumerator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="1020">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="675">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/basic_grid.rb">
+    <entry file="file://$PROJECT_DIR$/rhetological-fallacies.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="23" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/master_grid_description_map.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/grid_module_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="810">
+          <caret line="41" column="80" selection-start-line="41" selection-start-column="80" selection-end-line="41" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/master_compatible_grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/master_grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/grid_layout_description.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="765">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="885">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/preprocessor_enumerator.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/ruby-debug-ide-0.4.24/lib/ruby-debug-ide.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72164947" vertical-offset="30" max-vertical-offset="675">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.29525483" vertical-offset="1107" max-vertical-offset="2625">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/basic_grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/almost_square.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chunky_training.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87628865" vertical-offset="0" max-vertical-offset="660">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding />
         </state>
       </provider>

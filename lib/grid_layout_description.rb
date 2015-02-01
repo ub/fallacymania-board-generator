@@ -28,18 +28,26 @@ module GridLayoutDescription
   # column-first iterator
   def each_cell_index
     if block_given?
-
       self.number_of_columns.times do |c|
         self.number_of_rows.times do |r|
           yield [r, c]
         end
       end
-
-
     else
       self.enum_for(:each_cell_index)
     end
   end
+
+  def each_cell_topleft
+    if block_given?
+      self.each_cell_index do | r, c |
+        yield [ (top_margin + r * vertical_pitch).to_i, (left_margin + c * horizontal_pitch).to_i ]
+      end
+    else
+      self.enum_for(:each_cell_topleft)
+    end
+  end
+
 
 end
 

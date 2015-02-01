@@ -1,3 +1,4 @@
+require_relative 'grid_layout_description'
 class BasicGrid
   include GridLayoutDescription
 
